@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="designing.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:designing"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ControlTemplate x:Key="submit" TargetType="Button">
+            <Grid Height="150" Width="150" Background="Transparent">
+                <ContentPresenter Foreground="{x:Null}">
+                    <Image Source="Assets/submit.png"></Image>
+                </ContentPresenter>
+            </Grid>
+        </ControlTemplate>
+        
+    </Application.Resources>
+
+</Application>
